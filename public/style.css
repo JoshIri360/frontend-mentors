@@ -510,20 +510,12 @@ html {
   margin: 3rem;
 }
 
-.m-10 {
-  margin: 2.5rem;
-}
-
 .m-4 {
   margin: 1rem;
 }
 
 .mb-5 {
   margin-bottom: 1.25rem;
-}
-
-.mt-24 {
-  margin-top: 6rem;
 }
 
 .mt-3 {
@@ -648,19 +640,29 @@ html {
   background-color: rgb(253 224 71 / var(--tw-bg-opacity));
 }
 
-.bg-dBlue {
-  --tw-bg-opacity: 1;
-  background-color: hsl(213 19% 18% / var(--tw-bg-opacity));
-}
-
 .bg-vdBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(216 12% 8% / var(--tw-bg-opacity));
 }
 
+.bg-dBlue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(213 19% 18% / var(--tw-bg-opacity));
+}
+
+.bg-slate-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+}
+
 .bg-Orange {
   --tw-bg-opacity: 1;
   background-color: hsl(25 97% 53% / var(--tw-bg-opacity));
+}
+
+.bg-tBlue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(213 19% 28% / var(--tw-bg-opacity));
 }
 
 .object-cover {

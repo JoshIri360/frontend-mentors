@@ -17,6 +17,7 @@ module.exports = {
 				lGrey: "hsl(217, 12%, 63%)",
 				mGrey: "hsl(216, 12%, 54%)",
 				dBlue: "hsl(213, 19%, 18%)",
+				tBlue: "hsl(213, 19%, 28%)",
 				vdBlue: "hsl(216, 12%, 8%)",
 			},
 		},
