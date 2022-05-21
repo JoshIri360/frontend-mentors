@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link href="../style.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="justify-center flex items-center bg-black">
+    <section class="p-7 rounded-3xl bg-vdBlue md:w-5/12 lg:w-3/12 sm:w-7/12 m-20 page1">
+      <div>
+        <div class="rounded-full bg-dBlue p-3 mb-5 w-10">
+          <img src="images\icon-star.svg" class="" alt="">
+        </div>
+        <div class="text-white font-bold text-2xl">How did we do?</div>
+        <div class="text-mGrey pt-2 pb-2 text-sm">Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!
+        </div>
+        <div class="flex gap-5 p-2 pl-0 pb-8 wrap">
+          <a class="rounded-full bg-dBlue p-2 w-10 text-center hover:cursor-pointer hover:bg-lGrey hover:text-white text-mGrey font-poppins star">1</a>
+          <a class="rounded-full bg-dBlue p-2 w-10 text-center hover:cursor-pointer hover:bg-lGrey hover:text-white text-mGrey font-poppins star">2</a>
+          <a class="rounded-full bg-dBlue p-2 w-10 text-center hover:cursor-pointer hover:bg-lGrey hover:text-white text-mGrey font-poppins star">3</a>
+          <a class="rounded-full bg-dBlue p-2 w-10 text-center hover:cursor-pointer hover:bg-lGrey hover:text-white text-mGrey font-poppins star">4</a>
+          <a class="rounded-full bg-dBlue p-2 w-10 text-center hover:cursor-pointer hover:bg-lGrey hover:text-white text-mGrey font-poppins star">5</a>
+        </div>
+        <div class="w-6/6 bg-Orange text-white rounded-3xl p-2 text-sm font-poppins space-x-2 hover:cursor-pointer hover:bg-white hover:text-Orange submit">
+          <span class="flex justify-center"><a class="self-center tracking-widest font-semibold">SUBMIT</a></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-7 rounded-3xl mt-24 bg-vdBlue lg:w-3/12 sm:w-7/12 m-10 page2 hidden">
+      <div class="flex flex-col items-center">
+          <img src="images/illustration-thank-you.svg" alt="">
+        <div class="text-Orange text-sm font-light bg-dBlue rounded-full p-1 pr-3 pl-3 m-4">You selected <span class="rating">0</span> out of 5</div>
+        <div class="text-2xl font-semibold text-white mt-3">Thank you!</div>
+        <div class="text-mGrey pt-2 pb-2 text-sm text-center">  We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
+        
+        </div>
+      </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
