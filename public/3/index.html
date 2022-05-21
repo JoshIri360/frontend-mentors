@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="../style.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="Outfit">
+  <main class="height-full flex items-center justify-center bg-pr3mainBG">
+    <div class="rounded-md bg-pr3cardBG w-64">
+      <div class="flex flex-col p-4">
+        <img src="images/image-equilibrium.jpg" alt="" class="rounded-md">
+        <h1 class="text-white text-xl font-semibold pt-3 pb-3">Equilibrium #3429</h1>
+        <span class="text-pr3softBlue text-sm">Our Equilibrium collection promotes balance and calm.</span>
+        <div class="flex justify-between text-xs pt-3">
+          <div class="text-pr3cyan flex items-center font-semibold gap-1"> <img class="h-3 pr-1" src="images/icon-ethereum.svg"  alt="">0.041 ETH</div>
+          <div class="text-pr3softBlue flex items-center"><img class="h-3 pr-1" src="images/icon-clock.svg"  alt="">3 days left</div>
+        </div>
+        <div style="height: 0.2px;" class="w-999 bg-pr3line mt-4 mb-2"></div>
+        <div class="flex items-center content-center gap-4">
+          <img class="w-7 border-2 rounded-full" src="images/image-avatar.png" alt="">
+          <p class="text-sm"><span class="text-pr3softBlue">Creation of</span> 
+            <span class="text-white">Jules Wyvern</span></p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
