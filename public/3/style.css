@@ -1,9 +1,10 @@
 .height-full {
 	height: 100vh;
 }
-.hide {
-	display: none;
-}
 .lll {
 	background: hsl(178, 100%, 50%, 0.3);
+	opacity: 0;
+}
+.pr4-container:hover .lll {
+	opacity: 1;
 }
