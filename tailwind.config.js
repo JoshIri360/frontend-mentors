@@ -10,6 +10,7 @@ module.exports = {
 		fontFamily: {
 			poppins: ["poppins"],
 			Outfit: ["Outfit"],
+			RedHatDisplay: ["Red Hat Display"],
 		},
 		extend: {
 			colors: {
@@ -25,6 +26,12 @@ module.exports = {
 				pr3mainBG: "hsl(217, 54%, 11%)",
 				pr3line: "hsl(215, 32%, 27%)",
 				pr3cardBG: "hsl(216, 50%, 16%)",
+				pr4paleBlue: "hsl(225, 100%, 94%)",
+				pr4bBlue: "hsl(245, 75%, 52%)",
+				pr4vpaleBlue: "hsl(225, 100%, 98%)",
+				pr4desBlue: "hsl(224, 23%, 55%)",
+				pr4dBlue: "hsl(223, 47%, 23%)",
+				pr4hoverbBlue: "hsl(245, 66%, 64%)",
 			},
 		},
 	},
